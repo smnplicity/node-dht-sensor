@@ -7,8 +7,7 @@
     "url": "https://github.com/momenso/node-dht-sensor"
   },
   "scripts": {
-    "install": "node-gyp configure",
-    "postinstall": "node-gyp build",
+    "install": "node-gyp rebuild",
     "test": "mocha"
   },
   "main": "./lib",
@@ -18,6 +17,7 @@
     "/binding.gyp"
   ],
   "dependencies": {
+    "bindings": "^1.5.0",
     "node-addon-api": "^1.6.3"
   },
   "devDependencies": {
