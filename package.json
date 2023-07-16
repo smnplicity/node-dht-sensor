@@ -1,16 +1,17 @@
 {
-  "author": "David Momenso",
-  "name": "node-dht-sensor",
-  "description": "Reads data from DHT sensors on Raspberry Pi",
+  "author": "Simon",
+  "name": "@smnplicity/node-dht-sensor",
+  "description": "A fork of node-dht-sensor: Reads data from DHT sensors on Raspberry Pi",
   "version": "0.4.3",
   "repository": {
-    "url": "https://github.com/momenso/node-dht-sensor"
+    "url": "https://github.com/smnplicity/node-dht-sensor"
   },
   "scripts": {
     "install": "node-gyp rebuild",
     "test": "mocha"
   },
   "main": "./lib",
+  "types": "./lib/index.d.ts",
   "files": [
     "/src",
     "/lib",
