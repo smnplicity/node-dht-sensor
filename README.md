@@ -1,5 +1,5 @@
 # Foreword
-This is a fork of https://github.com/momenso/node-dht-sensor that includes the bindings package so that it can be used in build pipelines that require relative paths e.g. [Electron Forge](https://www.electronforge.io/).
+This is a fork of https://github.com/momenso/node-dht-sensor that includes the [bindings](https://www.npmjs.com/package/bindings) package so that it can be used in build pipelines that require relative paths e.g. [Electron Forge](https://www.electronforge.io/).
 
 # node-dht-sensor
 
